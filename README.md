@@ -1,11 +1,11 @@
 one-bridge-admin-cipher
 =========
 
-An internal One Bridge Python library to handle admin related crpytographic functionalities.
-
 [![CI-CD](https://github.com/Fritek/one-bridge-admin-cipher/actions/workflows/ci.yaml/badge.svg)](https://github.com/Fritek/one-bridge-admin-cipher/actions/workflows/ci.yaml)
-
 [![pre-commit](https://github.com/Fritek/one-bridge-admin-cipher/actions/workflows/pre-commit.yaml/badge.svg)](https://github.com/Fritek/one-bridge-admin-cipher/actions/workflows/pre-commit.yaml)
+
+
+An internal One Bridge Python library to handle admin related crpytographic functionalities.
 
 Developing
 ----------
