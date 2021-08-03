@@ -23,7 +23,6 @@ pytest==6.2.4
 python-gnupg==0.4.7
 python-ldap==3.3.1
 regex==2021.7.6
-secrets==1.0.2
 six==1.16.0
 systematic==4.8.7
 toml==0.10.2
