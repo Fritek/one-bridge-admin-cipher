@@ -14,7 +14,7 @@ setuptools.setup(
     author_email="xblitzdev@gmail.com",
     description="An internal One Bridge Python library to handle admin related crpytographic functionalities.",
     long_description=long_description,
-    long_description_content_type="text/x-rst",
+    long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
