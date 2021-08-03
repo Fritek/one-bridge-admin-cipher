@@ -110,4 +110,4 @@ class OBACipher:
         # decrypt the cipher text
         admin_secret_key = cipher.decrypt_and_verify(cipher_text, tag)
 
-        return admin_secret_key
+        return bytes.decode(admin_secret_key)
