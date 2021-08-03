@@ -25,7 +25,7 @@ import secrets
 
 from one_bridge_admin_cipher.one_bridge_admin_cipher import OBACipher
 
-# Generate Secret Key
+## Generate Secret Key
 test_secret_key = secrets.token_hex(256)
 
 # Instantiate module class with secret key
