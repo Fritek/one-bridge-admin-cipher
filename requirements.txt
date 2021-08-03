@@ -18,11 +18,12 @@ pyasn1-modules==0.2.8
 pycparser==2.20
 pycryptodome==3.10.1
 pyOpenSSL==20.0.1
-pyparsing==2.4.7
+pyparsing==2.4.7Z
 pytest==6.2.4
 python-gnupg==0.4.7
 python-ldap==3.3.1
 regex==2021.7.6
+secrets==1.0.2
 six==1.16.0
 systematic==4.8.7
 toml==0.10.2
