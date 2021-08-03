@@ -32,9 +32,9 @@ class OBACipher:
         auth_token = secrets.token_urlsafe(16)
         admin_secret_key = secrets.token_hex(16)
         encrypted_secret_key, _ = cipher.encrypt_and_digest(
-            str.encode(admin_secret_key)
+            str.encode(admin_secret_key, encoding="UTF-8")
         )
-        return auth_token, encrypted_secret_key.decode()
+        return auth_token, encrypted_secret_key.decode(encoding="UTF-8")
 
     def decrypt(self, encrypted_secret_key):
         """
