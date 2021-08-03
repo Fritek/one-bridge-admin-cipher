@@ -28,13 +28,13 @@ from one_bridge_admin_cipher.one_bridge_admin_cipher import OBACipher
 ## Generate Secret Key
 test_secret_key = secrets.token_hex(256)
 
-# Instantiate module class with secret key
+## Instantiate module class with secret key
 cipher = OBACipher(encrptyion_secret_key=test_secret_key);
 
-# Generate auth token and encrypted_secret_key
+## Generate auth token and encrypted_secret_key
 auth_token, encrypted_secret_key = cipher.generate_keys()
 
-# Recover admin_secret_key
+## Recover admin_secret_key
 admin_secret_key = cipher.decrypt(encrypted_secret_key=encrypted_secret_key)
 
 
