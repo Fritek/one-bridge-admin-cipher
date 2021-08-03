@@ -9,8 +9,10 @@ packaging==21.0
 pathspec==0.9.0
 pluggy==0.13.1
 py==1.10.0
-pycryptodome==3.10.1
+pycryptodomex==3.10.1
 pyparsing==2.4.7
+pytest==6.2.4
+pytest-cov==2.12.1
 regex==2021.7.6
 toml==0.10.2
 tomli==1.2.0
