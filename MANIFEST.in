@@ -1,0 +1,2 @@
+include versioneer.py
+include one_bridge_admin_cipher/_version.py
