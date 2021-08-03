@@ -34,7 +34,7 @@ class OBACipher:
         encrypted_secret_key, _ = cipher.encrypt_and_digest(
             str.encode(admin_secret_key)
         )
-        return auth_token, encrypted_secret_key
+        return auth_token, encrypted_secret_key.decode()
 
     def decrypt(self, encrypted_secret_key):
         """
